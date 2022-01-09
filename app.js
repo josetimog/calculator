@@ -410,36 +410,36 @@ function equalsInput(){
     justPressedEquals = true;
 }
 
-// digit.forEach((digit) => {
-//     digit.addEventListener('mousedown', ()=> {
-//         digit.style.backgroundColor = `rgba(255,255,255,.3)`;
-//         digit.style.fontSize = '23px';
-//     })
-//     digit.addEventListener('mouseup', ()=> {
-//         digit.style.backgroundColor = `rgba(255,255,255,.15)`;
-//         digit.style.fontSize = '28px';
-//     })
-// })
+digit.forEach((digit) => {
+    digit.addEventListener('mousedown', ()=> {
+        digit.style.backgroundColor = `rgba(255,255,255,.3)`;
+        digit.style.fontSize = '23px';
+    })
+    digit.addEventListener('mouseup', ()=> {
+        digit.style.backgroundColor = `rgba(255,255,255,.15)`;
+        digit.style.fontSize = '28px';
+    })
+})
 
-// operation.forEach((operation) => {
-//     operation.addEventListener('mousedown', ()=> {
-//         operation.style.backgroundColor = `rgba(255,255,255,.3)`;
-//         operation.style.fontSize = '23px';
-//     })
-//     operation.addEventListener('mouseup', ()=> {
-//         operation.style.backgroundColor = `rgba(255,255,255,.15)`;
-//         operation.style.fontSize = '28px';
-//     })
-// })
+operation.forEach((operation) => {
+    operation.addEventListener('mousedown', ()=> {
+        operation.style.backgroundColor = `rgba(255,255,255,.3)`;
+        operation.style.fontSize = '23px';
+    })
+    operation.addEventListener('mouseup', ()=> {
+        operation.style.backgroundColor = `rgba(255,255,255,.15)`;
+        operation.style.fontSize = '28px';
+    })
+})
 
-// clear.addEventListener('mousedown', ()=> {
-//     clear.style.backgroundColor = `rgba(255,255,255,.3)`;
-//     clear.style.fontSize = '23px';
-// })
-// clear.addEventListener('mouseup', ()=> {
-//     clear.style.backgroundColor = `rgba(255,255,255,.15)`;
-//     clear.style.fontSize = '28px';
-// });
+clear.addEventListener('mousedown', ()=> {
+    clear.style.backgroundColor = `rgba(255,255,255,.3)`;
+    clear.style.fontSize = '23px';
+})
+clear.addEventListener('mouseup', ()=> {
+    clear.style.backgroundColor = `rgba(255,255,255,.15)`;
+    clear.style.fontSize = '28px';
+});
 
 //--------------------------------KEYBOARD SUPPORT---------------------------------------
 document.addEventListener('keydown', function(event) {
