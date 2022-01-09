@@ -5,6 +5,7 @@ The latest version has the following features:
 - Ability to string operations together
 - Delete button
 - Negative and decimal buttons
+- Fixed the limit on the output to be 14 digits long to prevent overflow off the screen
 
 Future revisions:
-- Fix the limit on the output to be 15 digits long to prevent overflow off the screen.
+- None as of yet.
