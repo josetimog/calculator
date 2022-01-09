@@ -585,7 +585,11 @@ function operate(a,b){
 }
 
 function getSecondOperand(){
+    
     let removeThisString = firstOperand + operator;
+    if (removeThisString.charAt(0) === '0'){
+        removeThisString = removeThisString.substr(1,removeThisString.length);
+    }
   //console.log(`${typeof display}`)
     return display.replace(removeThisString, '');
 }
