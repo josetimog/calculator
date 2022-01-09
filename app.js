@@ -34,161 +34,202 @@ outputDisplay();
 
 zero.addEventListener('click', inputZero);
 function inputZero(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '0';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '0';
-            outputDisplay(); 
-            break;
+
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '0';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '0';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 one.addEventListener('click', inputOne);
 function inputOne() {
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '1';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '1';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '1';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '1';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 two.addEventListener('click', inputTwo);
 function inputTwo(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '2';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '2';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '2';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '2';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 three.addEventListener('click', inputThree)
 function inputThree(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '3';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '3';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '3';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '3';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 four.addEventListener('click', inputFour);
 function inputFour(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '4';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '4';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '4';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '4';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 five.addEventListener('click', inputFive);
 function inputFive(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '5';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '5';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '5';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '5';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 six.addEventListener('click', inputSix);
 function inputSix(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '6';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '6';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '6';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '6';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 seven.addEventListener('click', inputSeven);
 function inputSeven(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '7';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '7';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '7';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '7';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
 eight.addEventListener('click', inputEight);
 function inputEight(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '8';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '8';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '8';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '8';
+                outputDisplay(); 
+                break;
+        }
     }
 };
 
 nine.addEventListener('click', inputNine);
 function inputNine(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '9';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '9';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '9';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '9';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
@@ -210,17 +251,21 @@ function inputNegative(){
 
 decimal.addEventListener('click', inputDecimal);
 function inputDecimal(){
-    switch (justPressedEquals){
-        case true:
-            justPressedEquals = false;
-            inputClear();
-            display += '.';
-            outputDisplay(); 
-            break;
-        case false:
-            display += '.';
-            outputDisplay(); 
-            break;
+    if(display.length >= 14) {
+        alert('Can\'t enter more than 14 digits');
+    }else{
+        switch (justPressedEquals){
+            case true:
+                justPressedEquals = false;
+                inputClear();
+                display += '.';
+                outputDisplay(); 
+                break;
+            case false:
+                display += '.';
+                outputDisplay(); 
+                break;
+        }
     }
 }
 
